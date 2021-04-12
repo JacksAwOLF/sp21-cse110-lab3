@@ -32,6 +32,14 @@
                     <li>struggle to finish my <strong>ECE65</strong> lab</li>
                     <li>participate in <b>GCJ</b> </li>
                 </ul>
+
+                <div>
+                    <p>Here's a <span>random audio clip</span>: a song that I removed the rapping part for a friend's birthday</p>
+                    <audio controls>
+                        <source src="media/aud.mp3" >
+                    </audio>
+                </div>
+
             </section>
 
             <hr>
@@ -139,7 +147,87 @@
             <h4>good luck grading the other 80 assignments</h4>
             <h5>and have a beautiful day</h5>
             <img alt="just a duck" src="https://clipartart.com/images/duck-quack-clipart-7.jpg" width="200"/>
+
+            <div>
+                <p>Here's a form to add new entries to the website</p>
+                <form action="" method="get">
+                    <fieldset>
+                    <fieldset>
+                        <legend>The Content</legend>
+
+                        What are you writing?
+                        <select>
+                            <option>Journal</option>
+                            <option>ToDo List</option>
+                            <option>Event Calendar</option>
+                        </select>
+
+                        <br><br>
+
+                        What day is it?
+                        <input list="weeksday">
+                        <datalist id="weeksday">
+                            <option value="M"></option>
+                            <option value="Tu"></option>
+                            <option value="W"></option>
+                            <option value="Th"></option>
+                            <option value="F"></option>
+                            <option value="Sa"></option>
+                            <option value="Su"></option>
+                        </datalist>
+
+                        <br><br>
+
+                        Content: <br>
+                        <textarea>The thing you are writing about</textarea>
+
+                        <br><br>
+
+                        What else are you adding? <br>
+                        <label for="Image">Image</label>
+                        <input type="checkbox" value="Image" id="Image"> <br>
+                        <label for="Video">Video</label>
+                        <input type="checkbox" value="Video" id="Video"> <br>
+                        <label for="Audio">Audio</label>
+                        <input type="checkbox" value="Audio" id="Audio"> <br>
+                        <label for="Links">Links</label>
+                        <input type="checkbox" value="Links" id="Links"> <br>
+
+                        <br><br>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>About You</legend>
+                        And what is your gender?
+                        
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="Male" id="male"> <br>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="Female" id="female"> <br>
+                        <label for="other">Other</label>
+                        <input type="radio" name="gender" value="Other" id="other"> <br>
+
+                        <br><br>
+
+                        When is next birthday?
+                        <input type="date">
+
+                        <br><br>
+                    </fieldset>
+
+                    How can I improve this form?
+                    <input type="text">
+
+                    <br><br>
+
+                    <button type="submit">Submit the form</button>
+                </fieldset>
+                </form>
+            </div>
+        
+            <br><br>
             <a href="#top">Back to top</a>
+
         </footer>
 
     </body>
