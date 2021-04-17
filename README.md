@@ -1,1 +1,1 @@
-https://jacksawolf.github.io/sp21-cse110-lab3/
+https://jacksawolf.github.io/Lab2/
