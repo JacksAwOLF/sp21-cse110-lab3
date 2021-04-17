@@ -1,0 +1,52 @@
+p{
+    color: rgb(6, 238, 6);  
+}
+
+h3 {
+    color: lightblue;
+}
+
+a{
+    color: yellow;
+}
+
+h1{
+    text-align:center;
+    text-decoration: wavy;
+    color: white;
+}
+
+h2{
+    border-style: solid;
+    border-color: hsla(300,0,100);
+    border-width: 2px;
+    border-radius:3px;
+}
+
+nav{
+    width: 100%;
+    border:2px solid white;
+    margin-bottom: 5px;
+}
+
+nav a{
+    display:inline;
+    width: 12%;
+    border: 1px solid white;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 0px;
+    padding-right: 0px;
+    font-size: 1.5em;
+}
+
+li{
+    color: peachpuff;
+    display: inline-block;
+}
+
+
+
+h4{
+    color: darkcyan;
+}
