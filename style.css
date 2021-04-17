@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Xanh+Mono:ital@0;1&display=swap');
+
+
+audio{
+    position: relative;
+    left: 50%;
+    width: 40%;
+
+}
+
+p{
+    color: rgb(6, 238, 6);  
+}
+
+h3 {
+    color: lightblue;
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+}
+
+
+
+a{
+    color: yellow;
+    font-family: 'VT323', monospace;
+}
+
+h1{
+    text-align:center;
+    text-decoration: wavy;
+    color: white;
+}
+
+h2{
+    border-style: solid;
+    border-color: hsla(300,0,100);
+    border-width: 2px;
+    border-radius:3px;
+}
+
+nav{
+    width: 100%;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+nav > a{
+    display:inline;
+    width: 12%;
+    border: 1px solid white;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-size: 1.5em;
+}
+
+#gridder{
+    display: grid;
+    background-color: darkgoldenrod;
+    grid-template: 
+        "and and"
+        "bil sam"
+        "bil sam";
+
+}
+
+#gridder > li:first-child{
+    grid-area: bil;
+}
+
+#gridder > li:nth-of-type(2){
+    grid-area: and;
+    margin-left: 35%;
+}
+
+#gridder > li:last-child{
+    grid-area: sam;
+}
+
+#gridder > li:first-child, 
+#gridder > li:last-child{
+    margin-left: 20%; 
+}
+
+#gridder li {
+    border: 1px dotted brown;
+    position: relative;
+}
+
+ul{
+    position: relative;
+}
+
+li{
+    color: peachpuff;
+}
+
+h4{
+    color: darkcyan;
+}
+
+form{
+    color: white;
+    text-align:right;
+}
+
+input:active{
+    background-color: red;
+}
+
+.single-image:hover{
+    position: relative;
+    left: 20px;
+}
+
+.flexing{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+.three-image{
+    padding: 10px;
+    margin: 10px;
+}
+
+option + option{
+    color: green;
+}
+
+@media screen and (max-width: 800px) {
+    *{
+        color: black;
+        background-color: white;
+    }
+}
+
+h3 ~ h3{
+    border: 1px dashed red;
+}
